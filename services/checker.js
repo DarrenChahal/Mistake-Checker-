@@ -24,9 +24,9 @@ function isWithin10PercentNumeric(userAns, correctAns) {
 }
 
 export const questionService = {
-  async evaluateResponse({ question, userAnswer, correctAnswer, questionType }) {
+  async evaluateResponse({ question, userAnswer, correctAnswer }) {
     let isCorrect = false;
-
+    const questionType = question.question_type;
     // Match for MCQ
     if (questionType === "mcq") {
       isCorrect = userAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();

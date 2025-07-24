@@ -1,6 +1,7 @@
 {
   "name": "mathongo",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +11,12 @@
   "keywords": [],
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "@google/genai": "^1.0.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "js-yaml": "^4.1.0",
+    "zod": "^4.0.8"
   }
 }

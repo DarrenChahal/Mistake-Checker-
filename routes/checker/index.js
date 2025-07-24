@@ -4,7 +4,7 @@ import checkerController from '../../controllers/checker.js';
 const router = express.Router();
 
 // Question endpoints
-router.post('/', checker.checkQuestions);
+router.post('/', checkerController.checkQuestions);
 
 
 export default router;
