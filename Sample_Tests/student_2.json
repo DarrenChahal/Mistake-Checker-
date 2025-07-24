@@ -1,0 +1,181 @@
+[
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "Which of the following has the highest penetrating power?",
+      "options": [
+        "X-rays",
+        "Gamma rays",
+        "Sound waves",
+        "Microwaves"
+      ]
+    },
+    "user_response": "Microwaves",
+    "correct_answer": "Gamma rays",
+    "topic_tag": [
+      "Modern Physics"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "Which gas is used in the preparation of Ammonia by Haber\u2019s process?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Chlorine",
+        "Nitrogen"
+      ]
+    },
+    "user_response": "Nitrogen",
+    "correct_answer": "Hydrogen",
+    "topic_tag": [
+      "Chemistry",
+      "Inorganic"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "What is the unit of force?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ]
+    },
+    "user_response": "Watt",
+    "correct_answer": "Newton",
+    "topic_tag": [
+      "Physics",
+      "Mechanics"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "What is the pH value of a neutral solution?",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ]
+    },
+    "user_response": "1",
+    "correct_answer": "7",
+    "topic_tag": [
+      "Chemistry",
+      "Acids and Bases"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "Which of the following is not a vector quantity?",
+      "options": [
+        "Velocity",
+        "Acceleration",
+        "Mass",
+        "Force"
+      ]
+    },
+    "user_response": "Mass",
+    "correct_answer": "Mass",
+    "topic_tag": [
+      "Physics",
+      "Vectors"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "Derivative of sin(x) is:",
+      "options": [
+        "cos(x)",
+        "-cos(x)",
+        "-sin(x)",
+        "tan(x)"
+      ]
+    },
+    "user_response": "-cos(x)",
+    "correct_answer": "cos(x)",
+    "topic_tag": [
+      "Mathematics",
+      "Calculus"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "The atomic number of Carbon is:",
+      "options": [
+        "12",
+        "6",
+        "14",
+        "8"
+      ]
+    },
+    "user_response": "6",
+    "correct_answer": "6",
+    "topic_tag": [
+      "Chemistry",
+      "Periodic Table"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "Who discovered the electron?",
+      "options": [
+        "Newton",
+        "Thomson",
+        "Bohr",
+        "Einstein"
+      ]
+    },
+    "user_response": "Newton",
+    "correct_answer": "Thomson",
+    "topic_tag": [
+      "Chemistry",
+      "Atomic Structure"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "If f(x) = x\u00b2, then f\u2019(x) = ?",
+      "options": [
+        "x",
+        "2x",
+        "x\u00b2",
+        "1"
+      ]
+    },
+    "user_response": "x\u00b2",
+    "correct_answer": "2x",
+    "topic_tag": [
+      "Mathematics",
+      "Differentiation"
+    ]
+  },
+  {
+    "question": {
+      "question_type": "mcq",
+      "question_statement": "Which is the lightest gas?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Helium",
+        "Nitrogen"
+      ]
+    },
+    "user_response": "Oxygen",
+    "correct_answer": "Hydrogen",
+    "topic_tag": [
+      "Chemistry",
+      "Gaseous State"
+    ]
+  }
+]

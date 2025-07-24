@@ -1,0 +1,20 @@
+evaluateResponsePrompt: |
+  A student answered the following question incorrectly.
+
+  Question: {{question}}
+  Student's answer: {{userAnswer}}
+  Correct answer: {{correctAnswer}}
+
+  Please:
+  - Briefly explain the underlying concept.
+  - Suggest what to revise.
+  - Tag the question with a suitable difficulty level (easy, medium, hard).
+  - Tag the question with a Bloom's taxonomy level (e.g., Remember, Understand, Apply, Analyze, Evaluate, Create).
+
+  Return a JSON object like:
+  {
+    "explanation": "...",
+    "revisionAdvice": "...",
+    "difficulty": "...",
+    "bloomsLevel": "..."
+  }

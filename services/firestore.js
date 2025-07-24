@@ -1,35 +1,34 @@
-import { Firestore, Timestamp } from '@google-cloud/firestore';
+import { Firestore } from '@google-cloud/firestore';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// Load environment variables
+// Load env vars
 dotenv.config();
 
-// Get the directory name in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 
-// Set the environment variable for Google Cloud authentication
-// This is the recommended way to use service account credentials with Google Cloud client libraries
-process.env.GOOGLE_APPLICATION_CREDENTIALS = path.join(projectRoot, 'credentials.json');
+// Get full path to credentials JSON
+const credentialsPath = path.join(projectRoot, process.env.GOOGLE_APPLICATION_CREDENTIALS);
 
-// Initialize Firestore
+// Set env var programmatically in case it's not picked automatically
+process.env.GOOGLE_APPLICATION_CREDENTIALS = credentialsPath;
+
 const db = new Firestore({
-    projectId: process.env.GCLOUD_PROJECT_ID,
-    databaseId: process.env.DATABASE_ID 
+  projectId: process.env.GCLOUD_PROJECT_ID,
+  databaseId: process.env.DATABASE_ID,
 });
 
-// Verify connection
+// Health check
 db.collection('_health_check').doc('test').get()
-    .then(() => console.log('Firestore connection verified successfully'))
-    .catch(error => console.error('Firestore connection error:', error.message));
+  .then(() => console.log('✅ Firestore connected'))
+  .catch(err => console.error('❌ Firestore connection error:', err.message));
 
+// Optional class
 class FirestoreService {
-    
-    
-
+  // Define CRUD methods later
 }
 
 const firestore = new FirestoreService();
