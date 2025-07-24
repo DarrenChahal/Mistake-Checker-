@@ -11,8 +11,10 @@
   "keywords": [],
   "description": "",
   "dependencies": {
+    "@google-cloud/firestore": "^7.11.3",
     "@google/genai": "^1.0.0",
     "@google/generative-ai": "^0.24.1",
+    "bluebird": "^3.7.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
