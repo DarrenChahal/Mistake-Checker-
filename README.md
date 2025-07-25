@@ -54,7 +54,7 @@ TELEGRAM_CHAT_ID=<your-telegram-chat-id>
 Once you've added the `.env` file and `credentials.json`, run:
 
 ```bash
-npm start
+node index.js
 ```
 
 You should see:
