@@ -1,16 +1,9 @@
-import { GoogleGenAI } from "@google/genai";
 import fs from "fs";
 import yaml from "js-yaml";
 import path from "path";
-
-import dotenv from "dotenv";
-
-// Load environment variables
-dotenv.config();
+import notificationService from "./notification.js";
 import database from "./database.js";
-
-
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+import { getGeminiEvaluation } from "./model.js";
 
 // Load YAML prompt
 const prompts = yaml.load(fs.readFileSync(path.resolve("config/aiPrompts.yaml"), "utf8"));
@@ -31,7 +24,7 @@ export const questionService = {
     let isCorrect = false;
 
     const questionType = question.question_type;
-    
+
     // Match for MCQ
     if (questionType === "mcq") {
       isCorrect = userAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase();
@@ -60,52 +53,25 @@ export const questionService = {
       .replace("{{userAnswer}}", userAnswer)
       .replace("{{correctAnswer}}", correctAnswer);
 
-    try {
-      const aiResponse = await ai.models.generateContent({
-        model: "gemini-2.5-flash",
-        contents: prompt,
-      });
+    const feedback = await getGeminiEvaluation(prompt);
 
-      let feedback;
-      const responseText = aiResponse.text || aiResponse.response?.text() || '';
-      
-      // Try to extract JSON from the response if it's wrapped in markdown
-      const jsonMatch = responseText.match(/```json\s*([\s\S]*?)\s*```/);
-      const jsonString = jsonMatch ? jsonMatch[1] : responseText;
-
-      try {
-        feedback = JSON.parse(jsonString);
-      } catch (parseErr) {
-        // If JSON parsing fails, create a structured response from the text
-        feedback = {
-          explanation: responseText,
-          revisionAdvice: "Please review the concept and try again.",
-          difficulty: "unknown",
-          bloomsLevel: "unknown"
-        };
-      }
-
-      return {
-        isCorrect: false,
-        ...feedback
-      };
-    } catch (error) {
-      console.error('Error calling Gemini API:', error);
-      return {
-        isCorrect: false,
-        explanation: "Unable to generate explanation at this time.",
-        revisionAdvice: "Please review the concept and try again.",
-        difficulty: "unknown",
-        bloomsLevel: "unknown"
-      };
-    }
+    return {
+      isCorrect: false,
+      ...feedback
+    };
   },
 
   async logEvaluatedQuestions(questions) {
     database.logEvaluatedQuestions(questions)
       .then(() => console.log("Evaluated questions logged successfully"))
       .catch(error => console.error("Error logging evaluated questions:", error));
-  }
+  },
 
+  async sendNotification(message, chatId) {
+    if (!chatId) {
+      throw new Error("Chat ID is required to send a notification.");
+    }
+    return notificationService.sendNotification(message, chatId);
+  }
 
 };
