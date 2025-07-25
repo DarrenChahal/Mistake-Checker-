@@ -2,180 +2,96 @@
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which of the following has the highest penetrating power?",
-      "options": [
-        "X-rays",
-        "Gamma rays",
-        "Sound waves",
-        "Microwaves"
-      ]
+      "question_statement": "Which block element has partially filled d-orbitals?",
+      "options": ["s-block", "p-block", "d-block", "f-block"]
     },
-    "user_response": "X-rays",
-    "correct_answer": "Gamma rays",
-    "topic_tag": [
-      "Modern Physics"
-    ]
+    "user_response": "d-block",
+    "correct_answer": "d-block",
+    "topic_tag": ["Chemistry", "Periodic Table"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "If 2x = 10, what is the value of x?"
+    },
+    "user_response": "5",
+    "correct_answer": "5",
+    "topic_tag": ["Mathematics", "Linear Equations"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which gas is used in the preparation of Ammonia by Haber\u2019s process?",
-      "options": [
-        "Hydrogen",
-        "Oxygen",
-        "Chlorine",
-        "Nitrogen"
-      ]
+      "question_statement": "At what temperature does water have maximum density?",
+      "options": ["0°C", "4°C", "25°C", "100°C"]
     },
-    "user_response": "Oxygen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Inorganic"
-    ]
+    "user_response": "0°C",
+    "correct_answer": "4°C",
+    "topic_tag": ["Physics", "Thermal Properties"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "How many neutrons are in carbon-14?"
+    },
+    "user_response": "8",
+    "correct_answer": "8",
+    "topic_tag": ["Chemistry", "Nuclear Chemistry"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "What is the unit of force?",
-      "options": [
-        "Newton",
-        "Joule",
-        "Pascal",
-        "Watt"
-      ]
+      "question_statement": "Which function represents a parabola?",
+      "options": ["y = x", "y = x²", "y = √x", "y = 1/x"]
     },
-    "user_response": "Watt",
-    "correct_answer": "Newton",
-    "topic_tag": [
-      "Physics",
-      "Mechanics"
-    ]
+    "user_response": "y = x²",
+    "correct_answer": "y = x²",
+    "topic_tag": ["Mathematics", "Functions"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "If a = 5, what is the value of a³?"
+    },
+    "user_response": "125",
+    "correct_answer": "125",
+    "topic_tag": ["Mathematics", "Exponents"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "What is the pH value of a neutral solution?",
-      "options": [
-        "0",
-        "7",
-        "14",
-        "1"
-      ]
+      "question_statement": "Which of the following is a vector quantity?",
+      "options": ["Speed", "Distance", "Work", "Displacement"]
     },
-    "user_response": "1",
-    "correct_answer": "7",
-    "topic_tag": [
-      "Chemistry",
-      "Acids and Bases"
-    ]
+    "user_response": "Displacement",
+    "correct_answer": "Displacement",
+    "topic_tag": ["Physics", "Vectors"]
   },
   {
     "question": {
-      "question_type": "mcq",
-      "question_statement": "Which of the following is not a vector quantity?",
-      "options": [
-        "Velocity",
-        "Acceleration",
-        "Mass",
-        "Force"
-      ]
+      "question_type": "input",
+      "question_statement": "How many valence electrons are there in an oxygen atom?"
     },
-    "user_response": "Velocity",
-    "correct_answer": "Mass",
-    "topic_tag": [
-      "Physics",
-      "Vectors"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Derivative of sin(x) is:",
-      "options": [
-        "cos(x)",
-        "-cos(x)",
-        "-sin(x)",
-        "tan(x)"
-      ]
-    },
-    "user_response": "-sin(x)",
-    "correct_answer": "cos(x)",
-    "topic_tag": [
-      "Mathematics",
-      "Calculus"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "The atomic number of Carbon is:",
-      "options": [
-        "12",
-        "6",
-        "14",
-        "8"
-      ]
-    },
-    "user_response": "12",
+    "user_response": "6",
     "correct_answer": "6",
-    "topic_tag": [
-      "Chemistry",
-      "Periodic Table"
-    ]
+    "topic_tag": ["Chemistry", "Periodic Properties"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Who discovered the electron?",
-      "options": [
-        "Newton",
-        "Thomson",
-        "Bohr",
-        "Einstein"
-      ]
+      "question_statement": "Which of these compounds is planar?",
+      "options": ["CH4", "NH3", "BF3", "H2O"]
     },
-    "user_response": "Einstein",
-    "correct_answer": "Thomson",
-    "topic_tag": [
-      "Chemistry",
-      "Atomic Structure"
-    ]
+    "user_response": "BF3",
+    "correct_answer": "BF3",
+    "topic_tag": ["Chemistry", "Molecular Geometry"]
   },
   {
     "question": {
-      "question_type": "mcq",
-      "question_statement": "If f(x) = x\u00b2, then f\u2019(x) = ?",
-      "options": [
-        "x",
-        "2x",
-        "x\u00b2",
-        "1"
-      ]
+      "question_type": "input",
+      "question_statement": "Evaluate: 9 + 6 ÷ 3"
     },
-    "user_response": "x\u00b2",
-    "correct_answer": "2x",
-    "topic_tag": [
-      "Mathematics",
-      "Differentiation"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Which is the lightest gas?",
-      "options": [
-        "Oxygen",
-        "Hydrogen",
-        "Helium",
-        "Nitrogen"
-      ]
-    },
-    "user_response": "Hydrogen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Gaseous State"
-    ]
+    "user_response": "11",
+    "correct_answer": "11",
+    "topic_tag": ["Mathematics", "BODMAS"]
   }
 ]

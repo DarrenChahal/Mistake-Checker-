@@ -2,180 +2,96 @@
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which of the following has the highest penetrating power?",
-      "options": [
-        "X-rays",
-        "Gamma rays",
-        "Sound waves",
-        "Microwaves"
-      ]
+      "question_statement": "The unit of electric flux is:",
+      "options": ["Volt", "Volt-meter", "Nm²/C", "C/m²"]
     },
-    "user_response": "Gamma rays",
-    "correct_answer": "Gamma rays",
-    "topic_tag": [
-      "Modern Physics"
-    ]
+    "user_response": "Nm²/C",
+    "correct_answer": "Nm²/C",
+    "topic_tag": ["Physics", "Electrostatics"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "How many atoms are there in one molecule of methane (CH₄)?"
+    },
+    "user_response": "5",
+    "correct_answer": "5",
+    "topic_tag": ["Chemistry", "Molecular Structure"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which gas is used in the preparation of Ammonia by Haber\u2019s process?",
-      "options": [
-        "Hydrogen",
-        "Oxygen",
-        "Chlorine",
-        "Nitrogen"
-      ]
+      "question_statement": "Which of these is a strong acid?",
+      "options": ["HCl", "CH3COOH", "NH4OH", "H2CO3"]
     },
-    "user_response": "Oxygen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Inorganic"
-    ]
+    "user_response": "CH3COOH",
+    "correct_answer": "HCl",
+    "topic_tag": ["Chemistry", "Acids and Bases"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "What is 7 × 8?"
+    },
+    "user_response": "56",
+    "correct_answer": "56",
+    "topic_tag": ["Mathematics", "Arithmetic"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "What is the unit of force?",
-      "options": [
-        "Newton",
-        "Joule",
-        "Pascal",
-        "Watt"
-      ]
+      "question_statement": "What is the slope of a line perpendicular to y = 2x + 3?",
+      "options": ["2", "-2", "1/2", "-1/2"]
     },
-    "user_response": "Pascal",
-    "correct_answer": "Newton",
-    "topic_tag": [
-      "Physics",
-      "Mechanics"
-    ]
+    "user_response": "-1/2",
+    "correct_answer": "-1/2",
+    "topic_tag": ["Mathematics", "Coordinate Geometry"]
   },
   {
     "question": {
-      "question_type": "mcq",
-      "question_statement": "What is the pH value of a neutral solution?",
-      "options": [
-        "0",
-        "7",
-        "14",
-        "1"
-      ]
+      "question_type": "input",
+      "question_statement": "If the current is 2A and resistance is 3 ohm, find the voltage."
     },
-    "user_response": "1",
-    "correct_answer": "7",
-    "topic_tag": [
-      "Chemistry",
-      "Acids and Bases"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Which of the following is not a vector quantity?",
-      "options": [
-        "Velocity",
-        "Acceleration",
-        "Mass",
-        "Force"
-      ]
-    },
-    "user_response": "Mass",
-    "correct_answer": "Mass",
-    "topic_tag": [
-      "Physics",
-      "Vectors"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Derivative of sin(x) is:",
-      "options": [
-        "cos(x)",
-        "-cos(x)",
-        "-sin(x)",
-        "tan(x)"
-      ]
-    },
-    "user_response": "-cos(x)",
-    "correct_answer": "cos(x)",
-    "topic_tag": [
-      "Mathematics",
-      "Calculus"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "The atomic number of Carbon is:",
-      "options": [
-        "12",
-        "6",
-        "14",
-        "8"
-      ]
-    },
-    "user_response": "12",
+    "user_response": "5",
     "correct_answer": "6",
-    "topic_tag": [
-      "Chemistry",
-      "Periodic Table"
-    ]
+    "topic_tag": ["Physics", "Ohm’s Law"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Who discovered the electron?",
-      "options": [
-        "Newton",
-        "Thomson",
-        "Bohr",
-        "Einstein"
-      ]
+      "question_statement": "Which quantum number determines the shape of the orbital?",
+      "options": ["Principal", "Azimuthal", "Magnetic", "Spin"]
     },
-    "user_response": "Bohr",
-    "correct_answer": "Thomson",
-    "topic_tag": [
-      "Chemistry",
-      "Atomic Structure"
-    ]
+    "user_response": "Azimuthal",
+    "correct_answer": "Azimuthal",
+    "topic_tag": ["Chemistry", "Atomic Structure"]
   },
   {
     "question": {
-      "question_type": "mcq",
-      "question_statement": "If f(x) = x\u00b2, then f\u2019(x) = ?",
-      "options": [
-        "x",
-        "2x",
-        "x\u00b2",
-        "1"
-      ]
+      "question_type": "input",
+      "question_statement": "Evaluate the limit: lim x→0 (sinx/x)"
     },
     "user_response": "1",
-    "correct_answer": "2x",
-    "topic_tag": [
-      "Mathematics",
-      "Differentiation"
-    ]
+    "correct_answer": "1",
+    "topic_tag": ["Mathematics", "Limits"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which is the lightest gas?",
-      "options": [
-        "Oxygen",
-        "Hydrogen",
-        "Helium",
-        "Nitrogen"
-      ]
+      "question_statement": "The dimensional formula of power is:",
+      "options": ["MLT⁻²", "ML²T⁻²", "ML²T⁻³", "MLT⁻³"]
     },
-    "user_response": "Oxygen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Gaseous State"
-    ]
+    "user_response": "ML²T⁻³",
+    "correct_answer": "ML²T⁻³",
+    "topic_tag": ["Physics", "Units and Dimensions"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "If a = 2 and b = 5, find a(b + 3)."
+    },
+    "user_response": "16",
+    "correct_answer": "16",
+    "topic_tag": ["Mathematics", "Algebra"]
   }
 ]

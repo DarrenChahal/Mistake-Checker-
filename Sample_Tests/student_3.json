@@ -2,180 +2,96 @@
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which of the following has the highest penetrating power?",
-      "options": [
-        "X-rays",
-        "Gamma rays",
-        "Sound waves",
-        "Microwaves"
-      ]
+      "question_statement": "Which law is used to find the resultant of two or more concurrent forces?",
+      "options": ["Newton's Law", "Hooke’s Law", "Lami’s Theorem", "Kirchhoff’s Law"]
     },
-    "user_response": "Gamma rays",
-    "correct_answer": "Gamma rays",
-    "topic_tag": [
-      "Modern Physics"
-    ]
+    "user_response": "Lami’s Theorem",
+    "correct_answer": "Lami’s Theorem",
+    "topic_tag": ["Physics", "Statics"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "What is 5 factorial (5!)?"
+    },
+    "user_response": "120",
+    "correct_answer": "120",
+    "topic_tag": ["Mathematics", "Combinatorics"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which gas is used in the preparation of Ammonia by Haber\u2019s process?",
-      "options": [
-        "Hydrogen",
-        "Oxygen",
-        "Chlorine",
-        "Nitrogen"
-      ]
+      "question_statement": "Which element has the highest electronegativity?",
+      "options": ["Oxygen", "Fluorine", "Nitrogen", "Chlorine"]
     },
-    "user_response": "Nitrogen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Inorganic"
-    ]
+    "user_response": "Fluorine",
+    "correct_answer": "Fluorine",
+    "topic_tag": ["Chemistry", "Periodic Table"]
   },
   {
     "question": {
-      "question_type": "mcq",
-      "question_statement": "What is the unit of force?",
-      "options": [
-        "Newton",
-        "Joule",
-        "Pascal",
-        "Watt"
-      ]
-    },
-    "user_response": "Pascal",
-    "correct_answer": "Newton",
-    "topic_tag": [
-      "Physics",
-      "Mechanics"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "What is the pH value of a neutral solution?",
-      "options": [
-        "0",
-        "7",
-        "14",
-        "1"
-      ]
-    },
-    "user_response": "1",
-    "correct_answer": "7",
-    "topic_tag": [
-      "Chemistry",
-      "Acids and Bases"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Which of the following is not a vector quantity?",
-      "options": [
-        "Velocity",
-        "Acceleration",
-        "Mass",
-        "Force"
-      ]
-    },
-    "user_response": "Force",
-    "correct_answer": "Mass",
-    "topic_tag": [
-      "Physics",
-      "Vectors"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Derivative of sin(x) is:",
-      "options": [
-        "cos(x)",
-        "-cos(x)",
-        "-sin(x)",
-        "tan(x)"
-      ]
-    },
-    "user_response": "-cos(x)",
-    "correct_answer": "cos(x)",
-    "topic_tag": [
-      "Mathematics",
-      "Calculus"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "The atomic number of Carbon is:",
-      "options": [
-        "12",
-        "6",
-        "14",
-        "8"
-      ]
+      "question_type": "input",
+      "question_statement": "If a triangle has sides 3, 4, and 5, what is its area?"
     },
     "user_response": "6",
     "correct_answer": "6",
-    "topic_tag": [
-      "Chemistry",
-      "Periodic Table"
-    ]
+    "topic_tag": ["Mathematics", "Geometry"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Who discovered the electron?",
-      "options": [
-        "Newton",
-        "Thomson",
-        "Bohr",
-        "Einstein"
-      ]
+      "question_statement": "The work done in moving a unit charge from one point to another is called:",
+      "options": ["Power", "Potential", "Force", "Energy"]
     },
-    "user_response": "Newton",
-    "correct_answer": "Thomson",
-    "topic_tag": [
-      "Chemistry",
-      "Atomic Structure"
-    ]
+    "user_response": "Potential",
+    "correct_answer": "Potential",
+    "topic_tag": ["Physics", "Electrostatics"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "What is the oxidation state of carbon in CO2?"
+    },
+    "user_response": "4",
+    "correct_answer": "4",
+    "topic_tag": ["Chemistry", "Redox"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "If f(x) = x\u00b2, then f\u2019(x) = ?",
-      "options": [
-        "x",
-        "2x",
-        "x\u00b2",
-        "1"
-      ]
+      "question_statement": "Which of the following compounds is ionic?",
+      "options": ["H2O", "CO2", "NaCl", "CH4"]
     },
-    "user_response": "1",
-    "correct_answer": "2x",
-    "topic_tag": [
-      "Mathematics",
-      "Differentiation"
-    ]
+    "user_response": "NaCl",
+    "correct_answer": "NaCl",
+    "topic_tag": ["Chemistry", "Chemical Bonding"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "Find the value of 3² + 4²."
+    },
+    "user_response": "25",
+    "correct_answer": "25",
+    "topic_tag": ["Mathematics", "Algebra"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which is the lightest gas?",
-      "options": [
-        "Oxygen",
-        "Hydrogen",
-        "Helium",
-        "Nitrogen"
-      ]
+      "question_statement": "Which law explains the photoelectric effect?",
+      "options": ["Planck’s Law", "Einstein’s Photoelectric Equation", "Bohr’s Theory", "de Broglie’s Hypothesis"]
     },
-    "user_response": "Nitrogen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Gaseous State"
-    ]
+    "user_response": "Bohr’s Theory",
+    "correct_answer": "Einstein’s Photoelectric Equation",
+    "topic_tag": ["Physics", "Modern Physics"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "What is the number of electrons in Mg²⁺?"
+    },
+    "user_response": "10",
+    "correct_answer": "10",
+    "topic_tag": ["Chemistry", "Atomic Structure"]
   }
 ]

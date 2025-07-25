@@ -2,180 +2,96 @@
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which of the following has the highest penetrating power?",
-      "options": [
-        "X-rays",
-        "Gamma rays",
-        "Sound waves",
-        "Microwaves"
-      ]
+      "question_statement": "Which of the following has the highest ionization energy?",
+      "options": ["Li", "Na", "K", "Be"]
     },
-    "user_response": "Microwaves",
-    "correct_answer": "Gamma rays",
-    "topic_tag": [
-      "Modern Physics"
-    ]
+    "user_response": "Na",
+    "correct_answer": "Be",
+    "topic_tag": ["Chemistry", "Periodic Table"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "What is the value of 6 × 7?"
+    },
+    "user_response": "42",
+    "correct_answer": "42",
+    "topic_tag": ["Mathematics", "Arithmetic"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Which gas is used in the preparation of Ammonia by Haber\u2019s process?",
-      "options": [
-        "Hydrogen",
-        "Oxygen",
-        "Chlorine",
-        "Nitrogen"
-      ]
+      "question_statement": "The time period of a simple pendulum is proportional to:",
+      "options": ["Length", "Mass", "Amplitude", "Square root of length"]
     },
-    "user_response": "Nitrogen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Inorganic"
-    ]
+    "user_response": "Length",
+    "correct_answer": "Square root of length",
+    "topic_tag": ["Physics", "Oscillations"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "What is the oxidation number of nitrogen in NH3?"
+    },
+    "user_response": "-3",
+    "correct_answer": "-3",
+    "topic_tag": ["Chemistry", "Redox Reactions"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "What is the unit of force?",
-      "options": [
-        "Newton",
-        "Joule",
-        "Pascal",
-        "Watt"
-      ]
+      "question_statement": "Which orbital has the highest energy in a multi-electron atom?",
+      "options": ["3d", "4s", "4p", "5s"]
     },
-    "user_response": "Watt",
-    "correct_answer": "Newton",
-    "topic_tag": [
-      "Physics",
-      "Mechanics"
-    ]
+    "user_response": "4s",
+    "correct_answer": "3d",
+    "topic_tag": ["Chemistry", "Atomic Structure"]
   },
   {
     "question": {
-      "question_type": "mcq",
-      "question_statement": "What is the pH value of a neutral solution?",
-      "options": [
-        "0",
-        "7",
-        "14",
-        "1"
-      ]
-    },
-    "user_response": "1",
-    "correct_answer": "7",
-    "topic_tag": [
-      "Chemistry",
-      "Acids and Bases"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Which of the following is not a vector quantity?",
-      "options": [
-        "Velocity",
-        "Acceleration",
-        "Mass",
-        "Force"
-      ]
-    },
-    "user_response": "Mass",
-    "correct_answer": "Mass",
-    "topic_tag": [
-      "Physics",
-      "Vectors"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "Derivative of sin(x) is:",
-      "options": [
-        "cos(x)",
-        "-cos(x)",
-        "-sin(x)",
-        "tan(x)"
-      ]
-    },
-    "user_response": "-cos(x)",
-    "correct_answer": "cos(x)",
-    "topic_tag": [
-      "Mathematics",
-      "Calculus"
-    ]
-  },
-  {
-    "question": {
-      "question_type": "mcq",
-      "question_statement": "The atomic number of Carbon is:",
-      "options": [
-        "12",
-        "6",
-        "14",
-        "8"
-      ]
+      "question_type": "input",
+      "question_statement": "Evaluate the derivative of x² at x = 3."
     },
     "user_response": "6",
     "correct_answer": "6",
-    "topic_tag": [
-      "Chemistry",
-      "Periodic Table"
-    ]
+    "topic_tag": ["Mathematics", "Differentiation"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "Who discovered the electron?",
-      "options": [
-        "Newton",
-        "Thomson",
-        "Bohr",
-        "Einstein"
-      ]
+      "question_statement": "A projectile has maximum range when projected at an angle of:",
+      "options": ["30", "45", "60", "90"]
     },
-    "user_response": "Newton",
-    "correct_answer": "Thomson",
-    "topic_tag": [
-      "Chemistry",
-      "Atomic Structure"
-    ]
+    "user_response": "60",
+    "correct_answer": "45",
+    "topic_tag": ["Physics", "Kinematics"]
+  },
+  {
+    "question": {
+      "question_type": "input",
+      "question_statement": "What is the atomic number of Oxygen?"
+    },
+    "user_response": "7",
+    "correct_answer": "8",
+    "topic_tag": ["Chemistry", "Periodic Table"]
   },
   {
     "question": {
       "question_type": "mcq",
-      "question_statement": "If f(x) = x\u00b2, then f\u2019(x) = ?",
-      "options": [
-        "x",
-        "2x",
-        "x\u00b2",
-        "1"
-      ]
+      "question_statement": "Which gas is released during photosynthesis?",
+      "options": ["O2", "CO2", "N2", "H2"]
     },
-    "user_response": "x\u00b2",
-    "correct_answer": "2x",
-    "topic_tag": [
-      "Mathematics",
-      "Differentiation"
-    ]
+    "user_response": "O2",
+    "correct_answer": "O2",
+    "topic_tag": ["Biology", "Photosynthesis"]
   },
   {
     "question": {
-      "question_type": "mcq",
-      "question_statement": "Which is the lightest gas?",
-      "options": [
-        "Oxygen",
-        "Hydrogen",
-        "Helium",
-        "Nitrogen"
-      ]
+      "question_type": "input",
+      "question_statement": "If a = 3 and b = 4, what is a² + b²?"
     },
-    "user_response": "Oxygen",
-    "correct_answer": "Hydrogen",
-    "topic_tag": [
-      "Chemistry",
-      "Gaseous State"
-    ]
+    "user_response": "25",
+    "correct_answer": "25",
+    "topic_tag": ["Mathematics", "Algebra"]
   }
 ]
